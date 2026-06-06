@@ -8,7 +8,10 @@ A clean, full-stack personal task manager built with **Node.js + Express** on th
 
 ## Live Demo
 
-> Deploy links go here once hosted (see [Deployment](#deployment) section below).
+- 🌐 **Frontend**: https://task-manager-swart-ten.vercel.app
+- 🔧 **Backend API**: https://task-manager-api-ini2.onrender.com
+
+> **Note**: Backend is hosted on Render's free tier. First request may take 30–60 seconds to wake up.
 
 ---
 
