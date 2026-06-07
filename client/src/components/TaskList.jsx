@@ -1,6 +1,6 @@
 ﻿import React from "react";
 import { useTasks } from "../context/TaskContext";
-import TaskItem from "./TaskItem";
+import TaskCard from "./TaskCard";
 
 export default function TaskList() {
   const { tasks, loading, error } = useTasks();
@@ -12,7 +12,7 @@ export default function TaskList() {
   return (
     <ul className="task-list">
       {tasks.map((task) => (
-        <TaskItem key={task.id} task={task} />
+        <TaskCard key={task.id} task={task} />
       ))}
     </ul>
   );
